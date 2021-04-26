@@ -61,4 +61,4 @@ hosts:
 EOF
 else
   echo "Wazuh APP already configured"
-fi
+fi		

@@ -47,7 +47,7 @@ sleep 2
 
 >&2 echo "Wazuh alerts template is loaded."
 
-./xpack_config.sh
+# ./xpack_config.sh
 
 ./wazuh_app_config.sh
 

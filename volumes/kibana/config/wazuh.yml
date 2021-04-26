@@ -159,4 +159,9 @@
 #     port: <port>
 #     username: <username>
 #     password: <password>
-
+hosts:
+  - 1513629884013:
+      url: https://wazuh
+      port: 55000
+      username: adlheid
+      password: IacXSo?aDiQcixj9
