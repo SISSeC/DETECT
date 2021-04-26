@@ -113,7 +113,7 @@ services:
     mem_limit: 384m
     container_name: ditto_thingssearch
     depends_on:
-      - policies
+      - ditto-policies
     environment:
       - TZ=Europe/Berlin
       - INSTANCE_INDEX=1
@@ -133,7 +133,7 @@ services:
     mem_limit: 384m
     container_name: ditto_concierge
     depends_on:
-      - policies
+      - ditto-policies
     environment:
       - TZ=Europe/Berlin
       - INSTANCE_INDEX=1
@@ -153,8 +153,8 @@ services:
     mem_limit: 384m
     container_name: ditto_connectivity
     depends_on:
-      - policies
-      - concierge
+      - ditto-policies
+      - ditto-concierge
     environment:
       - TZ=Europe/Berlin
       - INSTANCE_INDEX=1
@@ -172,8 +172,8 @@ services:
     mem_limit: 384m
     container_name: ditto_gateway
     depends_on:
-      - policies
-      - concierge
+      - ditto-policies
+      - ditto-concierge
     ports:
       - "8081:8080"
     environment:
@@ -216,8 +216,8 @@ services:
     ports:
       - "${DITTO_EXTERNAL_PORT:-8080}:80"
     depends_on:
-      - gateway
-      - swagger-ui
+      - ditto-gateway
+      - ditto-swaggerui
     networks:
       - data_hub
 #---------------------------------------- Kafka -----------------------------------------------------
