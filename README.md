@@ -1,11 +1,11 @@
-# Internet of Things Data Analytics Pipeline
+# Data managEmenT sECurity analyTics (DETECT)
 
-[![Branch master](https://github.com/philem208/IoT-analytics-pipeline/actions/workflows/master.yml/badge.svg)](https://github.com/philem208/IoT-analytics-pipeline/actions/workflows/master.yml)
-[![Branch experimental](https://github.com/philem208/IoT-analytics-pipeline/actions/workflows/experimental.yml/badge.svg)](https://github.com/philem208/IoT-analytics-pipeline/actions/workflows/experimental.yml)
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/philem208/IoT-analytics-pipeline.svg)](http://isitmaintained.com/project/philem208/IoT-analytics-pipeline "Percentage of issues still open")
-[![GitHub forks](https://img.shields.io/github/forks/philem208/IoT-analytics-pipeline)](https://github.com/philem208/IoT-analytics-pipeline/network)
-[![GitHub stars](https://img.shields.io/github/stars/philem208/IoT-analytics-pipeline)](https://github.com/philem208/IoT-analytics-pipeline/stargazers)
-[![GitHub license](https://img.shields.io/github/license/philem208/IoT-analytics-pipeline)](https://github.com/philem208/IoT-analytics-pipeline)
+[![Branch master](https://github.com/SISSeC/DETECT/actions/workflows/master.yml/badge.svg)](https://github.com/SISSeC/DETECT/actions/workflows/master.yml)
+[![Branch experimental](https://github.com/SISSeC/DETECT/actions/workflows/experimental.yml/badge.svg)](https://github.com/SISSeC/DETECT/actions/workflows/experimental.yml)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/SISSeC/DETECT.svg)](http://isitmaintained.com/project/SISSeC/DETECT "Percentage of issues still open")
+[![GitHub forks](https://img.shields.io/github/forks/SISSeC/DETECT)](https://github.com/SISSeC/DETECT/network)
+[![GitHub stars](https://img.shields.io/github/stars/SISSeC/DETECT)](https://github.com/SISSeC/DETECT/stargazers)
+[![GitHub license](https://img.shields.io/github/license/SISSeC/DETECT)](https://github.com/SISSeC/DETECT)
 
 ## Introduction
 The internet of things produces a massive flood of data due to the vast amount of underlying heterogeneous devices. The heterogeneity is a result of the multitude of vendors and diverse upcoming standards and protocols. From a cybersecurity perspective, this heterogeneity presents an enormous challenge. Analyses must cover all temporal dimensions to recognize incidents in real-time. These incidents are based on so-called indicators of compromise, and by identifying and reacting to them, potential damage can be minimized or completely ward off.  Thus, from the underlying data, information must be created, which can lead to knowledge and wisdom. By processing stream and batch data, descriptive, diagnostic, detective, predictive and prescriptive analytics can be engaged.   
@@ -15,7 +15,7 @@ The pipeline shows a visualization of the Docker Compose file. The Viz repositor
 ```docker
 docker run --rm -it --name dc -v ${pwd}:/input pmsipilot/docker-compose-viz render -m image docker-compose.yml -f --horizontal --no-volumes
 ```
-![alt text](https://github.com/philem208/IoT-analytics-pipeline/blob/master/resources/docker-compose.png) 
+![alt text](https://github.com/SISSeC/DETECT/blob/master/resources/docker-compose.png) 
 
 ## Tech stack
 | Technology      | Version | Description | Task     |
